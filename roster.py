@@ -2,10 +2,10 @@
 
 import pandas as pd 
 
-roster = ["Bacot", "Davis","Cadeau"]
-player = {"Last name": roster,
+player = {"Last name": ["Bacot", "Davis","Cadeau"],
           "First Name": ["Armandoo", "RJ", "Elliot"],
-          "height": [240, 180, 180]}
+          "height": [83, 72, 73],
+          "weight":[240, 180, 180]}
 data = pd.DataFrame(player)
 print(data)
 
